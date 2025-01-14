@@ -18,9 +18,9 @@ jobs:
 
     - name: Push changes
       run: |
-        git config --global user.name 'tmddn131'
+        git config --global user.name 'H-SeungWoo'
         git config --global user.email 'tmddn_00@naver.com'
-        git push https://${{ secrets.GH_PAT_HSW }}@github.com/tmddn131/velog_twoplus.git 
+        git push https://${{ secrets.GH_PAT_HSW }}@github.com/H-SeungWoo/velog_twoplus.git 
         
     # https://${{SecretKey}}@github.com/깃허브 아이디/레포지토리이름.git
 
